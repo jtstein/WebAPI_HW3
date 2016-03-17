@@ -1,0 +1,67 @@
+{
+	"id": "b80d20fe-2562-2dfd-5e35-da3fcc982c8d",
+	"name": "WebAPIHW3",
+	"description": "",
+	"order": [
+		"10769491-b270-ef68-4895-83de94932a3a",
+		"05283b05-3ec8-1a2c-a432-9b188a4aaf40"
+	],
+	"folders": [],
+	"timestamp": 1458157114031,
+	"owner": "",
+	"remoteLink": "",
+	"public": false,
+	"requests": [
+		{
+			"id": "05283b05-3ec8-1a2c-a432-9b188a4aaf40",
+			"headers": "",
+			"url": "https://binley3-test.apigee.net/oauth/client_credential/accesstoken?grant_type=client_credentials",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "client_id",
+					"value": "3I3iV3XnkDOLSZ5Jj5bPF9CBzTTjO2GL",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "client_secret",
+					"value": "FalmD1EFMTV51Ez1",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1458175817427,
+			"name": "https://binley3-test.apigee.net/oauth/client_credential/accesstoken?grant_type=client_credentials",
+			"description": "",
+			"collectionId": "b80d20fe-2562-2dfd-5e35-da3fcc982c8d",
+			"responses": []
+		},
+		{
+			"id": "10769491-b270-ef68-4895-83de94932a3a",
+			"headers": "Authorization: Bearer a3awoGARD6ZUofGrhkXXhpbkjsG0\n",
+			"url": "http://binley3-test.apigee.net/WebAPIHW3/",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1458175812800,
+			"name": "http://binley3-test.apigee.net/webapihw3/gets",
+			"description": "",
+			"collectionId": "b80d20fe-2562-2dfd-5e35-da3fcc982c8d",
+			"responses": []
+		}
+	]
+}

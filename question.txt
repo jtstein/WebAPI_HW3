@@ -1,0 +1,1 @@
+Placeing your OAuth token in the main flow would be meaningless because the OAuth token grants access to the main flow. It would be very easy to hack the server if the OAuth was generated inside the main flow.
